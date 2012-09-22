@@ -7,6 +7,41 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <title>hsif, a weekend game</title>
 	<link href="indexStyle.css"  type="text/css" rel="stylesheet"/>
+	<style>
+	.perspective{
+		width:48px;
+		height:48px;
+		position:absolute;
+		-webkit-perspective: 900;
+		-webkit-transform: translateX(200px);
+		-webkit-transition: all 300ms;
+	}
+	.bigBox{
+		height:48px;
+		width:48px;
+		position:relative;
+		-webkit-transition: all 5s;
+		-webkit-transform-origin:50% 50%;
+	}
+	.back{
+		-webkit-transform: rotateY(180deg);
+		
+	}
+	.faceBox,.backBox{
+		width:48px;
+		height:48px;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	.faceBox{
+		background:green;
+	}
+	.backBox{
+		-webkit-backface-visibility:hidden;
+		background:blue;
+	}
+	</style>
 </head>
 <div class="main">
 	<div class="progressbar">
@@ -15,48 +50,67 @@
 	<div class="left_box"></div>
 	<div class="contentBox">
 		<div class="contentbg"></div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
-		</div>
-		<div>
-			<div>	
-			</div>
+		
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
 		</div>
 	</div>
-	
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+		<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
+	<div class="perspective">
+		<div class="bigBox back">
+			<div class="faceBox"></div>
+			<div class="backBox"></div>
+		</div>
+	</div>
 	<div class="right_box"></div>
 </div>
 <script src="script/sea.js" data-main="./script/index"></script>

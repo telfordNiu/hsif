@@ -14,20 +14,12 @@
 }
 .contentBox
 {
+	position: relative;
 	width:500px;
 	height:500px;
 	 background-color:#ddd;
 	 margin:0 10px 20px 10px;
 	 float:left;
-}
-.contentBox div{
-	width:16px;
-	height:16px;
-	position:absolute;
-	top:0;
-	background-color:#BBDFFF;
-	left:0;
-	
 }
 
 .progressbar
