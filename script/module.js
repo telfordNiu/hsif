@@ -1,6 +1,7 @@
 //module.js 模块脚本，存储方块数据，颜色
 
 define(function(require,exports,module){
+	var sum = require('./sum');
 
 	//全部的方块数据
 	var cubes = [];
@@ -9,5 +10,8 @@ define(function(require,exports,module){
 	exports.init = function(){
 
 	}
+
+
+
     
 });
