@@ -8,14 +8,16 @@
 {
 	width:200px;
 	float:left;
-	background:url("images/octocat.jpg") repeat scroll -52px 6px transparent;
+	background:url("images/bouncer.jpg") repeat scroll -52px 0px transparent;
+	background-size: 500px 500px;
 	height:500px;
 }
 .right_box
 {
 	width:200px;
 	float:left;
-	background:url("images/octonaut.jpg") repeat scroll -503px -119px transparent;
+	background:url("images/octdrey-catburn.jpg") repeat scroll -250px 0px transparent;
+	background-size: 500px 500px;
 	height:500px;
 }
 .main .contentbg{
