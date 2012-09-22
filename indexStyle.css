@@ -5,10 +5,10 @@
 }
 .contentBox
 {
-	width:960px;
-	height:960px;
+	width:500px;
+	height:500px;
 	 background-color:#ddd;
-	 margin-bottom:10px;
+	 margin:0 auto 20px;
 }
 .contentBox div{
 	width:16px;
@@ -17,19 +17,20 @@
 	top:0;
 	background-color:#BBDFFF;
 	left:0;
+	
 }
 
 .progressbar
 {
-	width:560px;
+	width:500px;
 	height:20px;
+	margin:0 auto;
     background-color:#999999;
-	 margin:0 0 0 200px;
+    overflow:hidden;
 }
 .pro_hid
 {
 	 background-color:#F60;
 	 width:400px;
 	 height:20px;
-	 margin:-20px 0 0 200px;
 }
