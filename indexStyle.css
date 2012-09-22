@@ -11,15 +11,6 @@
 	 background-color:#ddd;
 	 margin:0 auto 20px;
 }
-.contentBox div{
-	width:16px;
-	height:16px;
-	position:absolute;
-	top:0;
-	background-color:#BBDFFF;
-	left:0;
-	
-}
 
 .progressbar
 {
