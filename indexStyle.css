@@ -1,14 +1,20 @@
-﻿.contentBox
+﻿.main
+{
+	width:960px;
+	margin:0 auto;
+}
+.contentBox
 {
 	width:960px;
 	height:960px;
-	margin:0 atto;
+	
 }
 .contentBox div{
 	width:16px;
 	height:16px;
 	position:absolute;
 	top:0;
+	background-color:#BBDFFF;
 	left:0;
 }
 
@@ -16,5 +22,6 @@
 {
 	width:1000px;
 	height:20px;
+	border:1px solid #666;
 	margin:0 auto;
 }
