@@ -2,24 +2,45 @@
 {
 	width:960px;
 	margin:0 auto;
+	overflow:hidden;
 }
 .left_box
 {
 	width:200px;
 	float:left;
-	border:1px solid #333;
 	background:url("images/octocat.jpg") repeat scroll -52px 6px transparent;
-	width:300px;
 	height:500px;
+}
+.right_box
+{
+	width:200px;
+	float:left;
+	background:url("images/octonaut.jpg") repeat scroll -503px -119px transparent;
+	height:500px;
+}
+.main .contentbg{
+	position:absolute;
+	width:500px;
+	height:500px;
+	background:url("images/nyantocat.gif") no-repeat 0 0 transparent;
+	opacity:0.2;
 }
 .contentBox
 {
-	position: relative;
+	position:relative;
 	width:500px;
 	height:500px;
-	 background-color:#ddd;
 	 margin:0 10px 20px 10px;
 	 float:left;
+}
+.contentBox div{
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:0;
+	background-color:#BBDFFF;
+	left:0;
+	
 }
 
 .progressbar
