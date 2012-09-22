@@ -7,37 +7,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <title>hsif, a weekend game</title>
 	<link href="indexStyle.css"  type="text/css" rel="stylesheet"/>
-			<style>
-	.perspective{
-		-webkit-perspective: 900;
-	}
-	.bigBox{
-		height:100px;
-		width:100px;
-		position:relative;
-		-webkit-transition: all 5s;
-	}
-	.back{
-		-webkit-transform: rotateY(180deg);
-		-webkit-transform-origin:50% 50%;
-	}
-	.faceBox,.backBox{
-		width:100px;
-		height:100px;
-		position:absolute;
-		top:0;
-		left:0;
-	}
-	.faceBox{
-		background:green;
-	}
-	.backBox{
-		-webkit-backface-visibility:hidden;
-		background:blue;
-	}
-	</style>
 </head>
 <div class="main">
+	<div class="progressbar">
+		<div class="pro_hid"></div>
+	</div>
+	<div class="left_box"></div>
 	<div class="contentBox">
 		<div>
 			<div>	
@@ -80,16 +55,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="progressbar">
-		<div class="pro_hid"></div>
-	</div>
 	
-</div>
-
-<div class="perspective">
-	<div class="bigBox back">
-		<div class="faceBox"></div>
-		<div class="backBox">123</div>
+	<div>
+		<img  src="drunktocat.png">
 	</div>
 </div>
 <script src="script/sea.js" data-main="./script/index"></script>
