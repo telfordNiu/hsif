@@ -3,7 +3,8 @@
 
 define(function(require,exports,module){
     var star = require('./timer');
-    var dom
+    var dom;
+	
     star.on = function(){
 
     }

@@ -36,7 +36,7 @@ define(function(require,exports,module){
 	//直接设置分数值
 	exports.set = function(num){
 		elem && (elem.innerHTML = num);
-		console.log(num);
+		//console.log(num);
 		allSum = num;
 	}
 

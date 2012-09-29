@@ -2,6 +2,7 @@
 
 define(function(require,exports,module){
 	var sum = require('./sum');
+	var progress = require("./progress");
 
 	//全部的方块数据
 	var cubes = [];
